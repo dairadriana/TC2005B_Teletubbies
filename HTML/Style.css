@@ -1,0 +1,12 @@
+.navigation {
+    box-sizing: border-box;
+    background-color: #5badca;
+    overflow: auto;
+    padding: 18px 50px;
+    position: relative;
+    top: 0;
+    width: 100%;
+    z-index: 999;
+    
+   
+  }
