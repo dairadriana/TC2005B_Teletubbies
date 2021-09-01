@@ -26,8 +26,10 @@ body, html {
   right: 0;
   margin: 20px;
   max-width: 300px;
+  border-radius: 10px;
+  filter: drop-shadow(10px 5px 2px rgba(129, 129, 129, 0.315));
   padding: 16px;
-  background-color: white;
+  background-color: rgba(129, 129, 129, 0.315);
 }
 
 /* Full-width input fields */
@@ -36,6 +38,8 @@ body, html {
   padding: 15px;
   margin: 5px 0 22px 0;
   border: none;
+  border-radius: 10px;
+  filter: drop-shadow(10px 5px 2px rgba(129, 129, 129, 0.315));
   background: #f1f1f1;
 }
 
@@ -46,10 +50,12 @@ input[type=text]:focus, input[type=password]:focus {
 
 /* Set a style for the submit button */
 .btn {
-  background-color: #04AA6D;
+  background-color: #FF3300;
   color: white;
   padding: 16px 20px;
   border: none;
+  border-radius: 10px;
+  filter: drop-shadow(10px 5px 2px rgba(129, 129, 129, 0.315));
   cursor: pointer;
   width: 100%;
   opacity: 0.9;
@@ -235,3 +241,31 @@ table tr:nth-child(2n+1) {
   }
 }
 
+/*Menus*/
+.topnav {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FF3300;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF3300;
+  color: FF3300;
+}
