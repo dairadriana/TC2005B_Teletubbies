@@ -8,7 +8,7 @@ body, html {
 
 .bg-img {
   /* The image used */
-  background-image: url("sesion.jpg");
+  background-image: url("./sesion.jpg");
 
   /* Control the height of the image */
   min-height: 380px;
