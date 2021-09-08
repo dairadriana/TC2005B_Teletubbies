@@ -175,3 +175,19 @@ td, tr {
 }
 
 /*fin de código para tablas*/
+
+
+/*Codigo de box shadow*/
+.box-shadow{
+	width: 25%; 
+	height: 40%; 
+  margin:auto;
+  border-radius:10px;
+	background: #F8F8F8; 
+	border: solid #FFFFFF 0; 
+  text-align: center;
+	box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+}
+/*Fin de código para box shadow*/
