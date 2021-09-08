@@ -6,6 +6,11 @@ body, html {
   box-sizing: border-box;
 }
 
+ /* fondo de pantalla para pagina de index */
+.fondo-img {
+  background-image: url("./sesion.jpg");
+}
+
 .bg-img {
   /* The image used */
   background-image: url("./sesion.jpg");
