@@ -3,6 +3,14 @@
     <head>
         <title>Pagina de inicio</title>
         <link rel="stylesheet" href="./Style.css">
+        <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+        <script>
+            axios.get("http://localhost:8080/getEmployee")
+              .then((employee) => {
+                console.log("the epmloyee", employee.data)
+              })
+        </script>
+
     </head>
     <body>
         <nav class="topnav">
