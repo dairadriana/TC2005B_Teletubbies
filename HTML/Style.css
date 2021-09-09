@@ -100,7 +100,15 @@ div.d {
   text-transform: uppercase;
 }
 
-img {
+#Juego > img {
+  border-radius: 10px;
+  height: 50%;
+  width: 50%;
+  /*Investigar vertical align*/
+}
+
+
+#Perfil > img {
   border-radius: 50%;
   height: 60px;
   width: 60px;
@@ -161,6 +169,7 @@ table th:first-child{
 table th:last-child{
   border-radius:0 10px 0px 0;
 }
+
 tr:nth-child(even){background-color: #f2f2f2}
 
 tr:first-child td:first-child { border-top-left-radius: 10px; }
