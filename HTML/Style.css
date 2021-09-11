@@ -1,12 +1,224 @@
-.navigation {
-    box-sizing: border-box;
-    background-color: #5badca;
-    overflow: auto;
-    padding: 18px 50px;
-    position: relative;
-    top: 0;
-    width: 100%;
-    z-index: 999;
-    
-   
-  }
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+ /* fondo de pantalla para pagina de index */
+.fondo-juego-img {
+  background-image: url("./galaga.jpg");
+}
+
+
+/*Inicio de codigo para la pagina de inicio de sesion*/
+.bg-img {
+  /* The image used */
+  background-image: url("./sesion.jpg");
+
+  /* Control the height of the image */
+  min-height: 380px;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+/* Add styles to the form container */
+.container {
+  position: absolute;
+  right: 0;
+  margin: 20px;
+  max-width: 300px;
+  border-radius: 10px;
+  filter: drop-shadow(10px 5px 2px rgba(129, 129, 129, 0.315));
+  padding: 16px;
+  background-color: rgba(129, 129, 129, 0.315);
+}
+
+/* Full-width input fields */
+  input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  border: none;
+  border-radius: 10px;
+  filter: drop-shadow(10px 5px 2px rgba(129, 129, 129, 0.315));
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for the submit button */
+.btn {
+  background-color: #FF3300;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  border-radius: 10px;
+  filter: drop-shadow(10px 5px 2px rgba(129, 129, 129, 0.315));
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+div.a {
+  text-align: center;
+}
+
+div.b {
+  text-align: left;
+}
+
+div.c {
+  text-align: right;
+} 
+
+div.d {
+  text-align: justify;
+} 
+
+* {
+  font-size: 100%;
+  font-family: Arial;
+ }
+
+.header {
+  background-color: #327a81;
+  color: white;
+  font-size: 1.5em;
+  padding: 1rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+/*Fin de codigo para la pagina de inicio de sesion*/
+
+
+#Juego > img {
+  border-radius: 10px;
+  height: 50%;
+  width: 50%;
+  /*Investigar vertical align*/
+}
+
+
+#Perfil > img {
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+}
+
+/*Menus*/
+.topnav {
+  background-color: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #FF3300;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #FF3300;
+  color: FF3300;
+}
+
+/*Inicio de código para Tablas*/
+table {
+  border-collapse: collapse;
+}
+
+caption {
+  font-weight: bold;
+  font-size: 24px;
+  text-align: left;
+  color: #333;
+}
+
+th {
+  background-color: #fc7250;
+  color: white;
+  padding: 8px;
+  text-align: center; 
+}
+
+/*Poner radios a las tablas*/
+
+table th:first-child{
+  border-radius:10px 0 0 0px;
+}
+
+table th:last-child{
+  border-radius:0 10px 0px 0;
+}
+
+tr:nth-child(even){background-color: #f2f2f2}
+
+tr:first-child td:first-child { border-top-left-radius: 10px; }
+tr:first-child td:last-child { border-top-right-radius: 10px; }
+tr:last-child td:first-child { border-bottom-left-radius: 10px; }
+tr:last-child td:last-child { border-bottom-right-radius: 10px; }
+
+
+td, tr {
+  padding: 8px;
+  text-align: left; /*redundancia*/
+}
+
+/*fin de código para tablas*/
+
+
+/*Codigo de box shadow*/
+.box-shadow{
+	width: 25%; 
+	height: 40%; 
+  margin:auto;
+  border-radius:10px;
+	background: #F8F8F8; 
+	border: solid #FFFFFF 0; 
+  text-align: center;
+	box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+}
+/*Fin de código para box shadow*/
+
+/*Codigo de box shadow*/
+.game-shadow{
+	width: 85%; 
+	height: 85%; 
+  position: relative;
+  margin:auto; 
+  border-radius:10px;
+	background: #F8F8F8; 
+	border: solid #FFFFFF 0; 
+  text-align: center;
+	box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+	-webkit-box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+	-moz-box-shadow: 15px 10px 20px rgba(0, 0, 0, 0.5)  ; 
+}
+/*Fin de código para box shadow*/
