@@ -6,13 +6,14 @@ module.exports = class EmployeeController{
     constructor(employeeModel) {
       this.employeeModel = employeeModel
     }
-    getEmployee(params) {
-      let employee = this.employeeModel.get(params)
-  
-      return this.employeeModel.get(params).then((employee) => {
-        // do whatever you want with employee
-        return employee
-      })
+    async getEmployee(params) {
+      let employee = await this.employeeModel.get(params)
+      return employee
+      // the same as above but with promises
+      // return this.employeeModel.get(params).then((employee) => {
+      //    do whatever you want with employee
+      //   return employee
+      // })
   
     }
   }
