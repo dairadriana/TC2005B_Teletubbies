@@ -11,6 +11,8 @@ body, html {
   background-image: url("./galaga.jpg");
 }
 
+
+/*Inicio de codigo para la pagina de inicio de sesion*/
 .bg-img {
   /* The image used */
   background-image: url("./sesion.jpg");
@@ -99,6 +101,8 @@ div.d {
   text-align: center;
   text-transform: uppercase;
 }
+/*Fin de codigo para la pagina de inicio de sesion*/
+
 
 #Juego > img {
   border-radius: 10px;
@@ -161,6 +165,8 @@ th {
   padding: 8px;
   text-align: center; 
 }
+
+/*Poner radios a las tablas*/
 
 table th:first-child{
   border-radius:10px 0 0 0px;
