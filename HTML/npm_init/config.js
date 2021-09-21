@@ -1,0 +1,1 @@
+exports.MYSQL_URL_CONNECTION_URL = "Driver={ODBC Driver 13 for SQL Server};Server=tcp:webclass.database.windows.net,1433;Database=web;Uid=webclass;Pwd=Tletubbies1;Encrypt=yes;TrustServerCertificate=no;Connection Timeout=30;"
