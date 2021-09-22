@@ -2,13 +2,17 @@ const PORT = 8080
 const express = require('express')
 // accept req from everywhere
 const cors = require('cors')
+
+const app = express()
+app.use(cors())
+app.use(express.json())
+
+
 const EmployeeController = require('Controllers/employeeController.js')
 // TODO create model and pass it to EmployeeController constructor
 const employeeController = new EmployeeController()
 // parse data from req
-const app = express()
-app.use(cors())
-app.use(express.json())
+
 // define enpoints
 
 let processParams = (req) => {
